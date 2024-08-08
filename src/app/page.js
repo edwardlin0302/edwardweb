@@ -2,8 +2,15 @@ import Image from "next/image";
 
 export default function Home() {
     return (
-        <main className="flex min-h-screen flex-col items-center justify-between p-24">
-            <p>a</p>
+        <main className="flex">
+            <p>Edward Lin</p>
+            <p>edwardlin0302@gmail.com</p>
+            <a
+                href="https://www.facebook.com/profile.php?id=100012803371797"
+                target="_blank"
+            >
+                Facebook
+            </a>
         </main>
     );
 }
